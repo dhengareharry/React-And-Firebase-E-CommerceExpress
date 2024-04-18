@@ -1,0 +1,110 @@
+.productinfo-section{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+.productinfo-container{
+    max-width: 72rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productinfo-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+.productinfo-img-container{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+.productinfo-info-container{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.productinfo-name{
+    max-width: 36rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem; 
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.05em;
+    color: #5e6b81;
+}
+.productinfo-star-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.productinfo-ul{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+
+}
+.productinfo-ul img{
+    width: 1rem;
+    margin-right: 0.25rem;
+    color: #dc2626;
+    color: #cbd5e0;
+
+}
+.productinfo-price{
+    display: inline-block;
+    font-size: 1.5rem; 
+    font-weight: 600;
+    color: #4a5568;
+}
+.description{
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #4a5568;
+}
+.productinfo-btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.productinfo-btn{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    color: #5007aa;
+    background-color: #f4eefc; 
+    border-width: 1px;
+    border-color: #bb9ae7;
+    border-radius: 0.75rem;
+}
+.productinfo-btn:hover{
+    background-color: #5007aa;
+    color: #f7fafc;
+}
+@media (min-width:720px){
+    .productinfo-img-container{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .productinfo-info-container{
+        width: 50%;
+    }
+    .productinfo-name{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:960px){
+    .productinfo-ul{
+        margin-bottom: 0;
+    }
+}

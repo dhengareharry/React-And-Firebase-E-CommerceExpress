@@ -1,0 +1,66 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signup-form-container{
+    background-color: #ece0fd; 
+    padding: 0.25rem; 
+    border-width: 1px; 
+    border-color: #bb9ae7; 
+    border-radius: 0.75rem; /* Extra-large border radius in Tailwind CSS */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem 0.25rem;
+}
+.signup-top-heading{
+    margin-bottom: 1.25rem;
+}
+.signup-top-heading h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5007aa; 
+}
+.signup-input-container{
+    margin-bottom: 0.75rem;
+}
+.signup-input{
+    background-color: #ece0fd;
+    border-width: 1px;
+    border-color: #bb9ae7;
+    padding: 0.5rem;
+    width: 24rem; 
+    border-radius: 0.375rem;
+    outline: none;
+}
+.signup-input::placeholder{
+    color: #8929ff;
+}
+.signup-btn{
+    margin-bottom: 1.25rem;
+}
+.signup-btn button{
+    background-color:#6c1bcf;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.375rem;
+}
+.signup-btn button:hover{
+    background-color: #5007aa;
+}
+.login-link{
+    color: #5007aa;
+    font-weight: bold;
+}
+@media (min-width:960px){
+    .signup-form-container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+/* 5007aa */

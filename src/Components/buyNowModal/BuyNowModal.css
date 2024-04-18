@@ -1,0 +1,18 @@
+.handleOpen-btn{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #5007aa; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-color: #4b5563;
+    border-radius: 0.75rem;
+}
+.handleOpen-btn:hover{
+    background-color: #5007aa;
+}
+.buynow-dialog{
+    background-color: #5007aa;
+}

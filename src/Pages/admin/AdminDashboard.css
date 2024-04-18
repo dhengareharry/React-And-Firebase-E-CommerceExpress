@@ -1,0 +1,87 @@
+.admin-container{
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem; 
+    margin-top: 1.25rem;
+}
+.admin-dashboard{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    border-color: #dfc9fb;
+    background-color: #f4eefc;
+}
+.dashboard-title{
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #6f18e0;
+}
+.mid-container{
+    margin-bottom: 1.25rem; 
+}
+.admin-main-card{
+    background-color: #f4eefc;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-radius: 0.75rem; /* Adjust size as needed */
+    border-width: 1px;
+    border-color: #dfc9fb;
+}
+.admin-image-container{
+    display: flex;
+    justify-content: center;
+}
+.admin-text-container h1{
+    text-align: center;
+    font-size: 1.125rem; /* Adjust size as needed */
+    color: #7d2fe3;
+}
+.admin-product-container,.admin-order-container,.admin-user-container{
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer; 
+}
+.admin-icon-container{
+    color: #7d2fe3;
+    width: 3rem;
+    height: 3rem; 
+    margin-bottom: 0.75rem;
+    display: inline-block;
+}
+.admin-card{
+    border: 1px solid;
+    background-color: #f4eefc;
+    border-color: #dfc9fb;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+} 
+.admin-card:hover{
+    background-color: #d7bcfa;
+} 
+.admin-count{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1.875rem;
+    color: #7d2fe3;
+}
+.admin-text{
+    font-weight: 700;
+    color: #6f18e0;
+}
+
+
+@media (min-width:720px){
+    .admin-product-container,.admin-user-container{
+        width: 33.333333%;
+    }
+    .admin-order-container{
+        width: 25%;
+    }
+}
+@media (width:540px){
+    .admin-product-container,.admin-order-container,.admin-user-container{
+        width: 50%;
+    }
+}
+  

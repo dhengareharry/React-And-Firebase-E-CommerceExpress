@@ -1,0 +1,52 @@
+.track-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.track-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    text-align: center;
+}
+.track{
+    padding: 1rem;
+    width: 100%;
+}
+.track-content{
+    border: 2px solid #c0c1c2;
+    background-color: #f7fafc;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 1.5rem 1rem;
+}
+.track-content:hover{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.track-content h2{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #4a5568;
+}
+.track-content p{
+    line-height: 1.625;
+}
+@media (min-width: 720px) {
+   .track-container{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+   }
+   .track{
+    width: 33.333333%;
+   }
+  }
+  @media (min-width: 540px){
+    .track{
+        width: 50%;
+    }
+  }
